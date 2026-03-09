@@ -5,11 +5,13 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>SD Negeri Merdeka</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mystyle.css'> <!-- Ini untuk akses CSS --> 
     <script src='main.js'></script>
 </head>
 
 <body>
+
+
     <header>
         <center>
             <img src="https://picsum.photos/700/300">
@@ -19,62 +21,76 @@
             <p>Jl. Merdeka No. 45, Jakarta Pusat</p>
 
             <hr>
-
-            <a href="#">Sejarah</a> |
-            <a href="#">Fasilitas</a> |
-            <a href="#">Staf Pengajar</a> |
-            <a href="#">PPDB</a>
-
+            <nav>
+                <a href="#">Sejarah</a> |
+                <a href="#">Fasilitas</a> |
+                <a href="#">Staf Pengajar</a> |
+                <a href="#">PPDB</a>
+            </nav>
             <hr>
 
         </center>
     </header>
-    <h2>Sejarah Sekolah</h2>
 
-    <p>SD Negeri Merdeka didirikan pada tahun 1960 dengan visi untuk memberikan pendidikan
-    dasar yang berkualitas bagi seluruh lapisan masyarakat. Kami percaya bahwa setiap
-    anak memiliki potensi unik yang harus dikembangkan sejak dini.</p>
 
-    <img src="https://picsum.photos/300/200">
+
+    <section class="sejarah-Section">
+        <div class="sejarah-text">
+            <h2>Sejarah Sekolah</h2>
+            <p>SD Negeri Merdeka didirikan pada tahun 1960 dengan visi untuk memberikan pendidikan
+            dasar yang berkualitas bagi seluruh lapisan masyarakat. Kami percaya bahwa setiap
+            anak memiliki potensi unik yang harus dikembangkan sejak dini.</p>
+        </div>
+
+        <div class="sejarah-img">
+            <img src="https://picsum.photos/300/200">
+        </div>
+    </section>
+
+
+
 
     <br><br>
 
-    <h2>Fasilitas Sekolah</h2>
+    <section class="fasilitas-section">
+        <h2>Fasilitas Sekolah</h2>
 
-    <table border="2"> <!-- Awalan Pembuatan Tabel + Border Gap -->
+        <table border="2"> <!-- Awalan Pembuatan Tabel + Border Gap -->
+            
+            <tr><!-- baris tabel -->
+                <td align="center"> <!-- Kolom Tabel 1 -->
+                    <img src="https://picsum.photos/200/150">
+                    <br>
+                    Lab Komputer
+                </td>
+                <!-- Ini Untuk Tabel Berikutnya -->
 
-    <tr><!-- baris tabel -->
-    <td align="center"> <!-- Kolom Tabel 1 -->
-    <img src="https://picsum.photos/200/150">
-    <br>
-    Lab Komputer
-    </td>
-    <!-- Ini Untuk Tabel Berikutnya -->
+                <td align="center"> <!-- Kolom Tabel 2 -->
+                    <img src="https://picsum.photos/200/150">
+                    <br>
+                    Perpustakaan
+                </td>
 
-    <td align="center"> <!-- Kolom Tabel 2 -->
-    <img src="https://picsum.photos/200/150">
-    <br>
-    Perpustakaan
-    </td>
-
-    <td align="center"> <!-- Kolom Tabel 3 -->
-    <img src="https://picsum.photos/200/150">
-    <br>
-    Taman Bermain
-    </td>
-    </tr>
-    </table><!-- Penutup Tabel -->
+                <td align="center"> <!-- Kolom Tabel 3 -->
+                    <img src="https://picsum.photos/200/150">
+                    <br>
+                    Taman Bermain
+                </td>
+            </tr>
+        </table><!-- Penutup Tabel -->
+    </section>
     
     <br>
 
-    <h2>Staf Pengajar Terbaik</h2>
-    <p>Kami didukung oleh guru-guru berpengalaman dan tersertifikasi.</p>
-    <ul><!-- List -->
-        <li>Bp. Ahmad Fauzi (Matematika)</li> <!-- Isi List -->
-        <li>Ibu Rina Wijaya (Bahasa Indonesia)</li>
-        <li>Ibu Siti Aminah (Ilmu Pengetahuan Alam)</li>
-    </ul>
-
+    <section class="staf-pengajar-section">
+        <h2>Staf Pengajar Terbaik</h2>
+        <p>Kami didukung oleh guru-guru berpengalaman dan tersertifikasi.</p>
+        <ul><!-- List -->
+            <li><strong>Bp. Ahmad Fauzi</strong> <span>(Matematika)</span></li> <!-- Isi List -->
+            <li><strong>Ibu Rina Wijaya</strong> <span>(Bahasa Indonesia)</span></li> <!-- Strong untuk menebalkan (BOLD) -->
+            <li><strong>Ibu Siti Aminah</strong> <span>(Ilmu Pengetahuan Alam)</span></li> </ul> <!-- Span untuk mengelompokkan Mata Pelajarannya -->
+        </ul>
+    </section>
     <hr>
 
     <center>
