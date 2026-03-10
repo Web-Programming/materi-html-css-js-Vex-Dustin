@@ -85,7 +85,7 @@ nav a:hover{
 }
 
 .fasilitas-section td:hover {/* Efek saat hover pada sel */
-    background-color: #e0f7fa; /* Warna latar belakang saat hover
+    background-color: #e0f7fa; /* Warna latar belakang saat hover */
     transform: translateY(-10px); /* Mengangkat sel saat dihover */
 }
 
