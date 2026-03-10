@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>JavaScript</title>
+    <script>
+        //Output Console
+        console.log("Halo JavaScript");
+        console.log("Ini pesan Error");
+        console.table(["Apel", "Jeruk"]);
+
+        //Output Document
+        alert("Diam atau Kamu Mati ");
+    </script>
+</head>
+<body>
+    <h1>Ini Apa</h1>
+    <div id="demo">Apa Ini</div>
+
+    <script>
+        //Output Document
+        //Alert (Hallo JavaScript);
+        var nama = prompt("Masukkan Nama Anda ");
+        console.log("Hallo, " + nama);
+
+        var isJomblo = confirm("Apakah Anda Jomblo, kalo ya, mau lanjut jomblo?");
+        if(isJomblo){
+            console.log("Semangatttt");
+        }else{
+            console.log("Byeee....");
+        }
+
+        //Output Document - DOM
+        document.write("<h2>Hallo....</h2>");
+        document.getElementById("demo").innerHTML = "Nama Saya Siapa";
+        
+        //Var
+        var nama = "Nur Rachmat"; //Str
+        var npm = 24248240027; //int
+        var isMale = true; //boolean
+        var hobi = ["Reading", "Writing", "Dancing"]; //List
+        var nilaiKuliah = {
+            "namaMK" : "PAW 1",
+            "NilaiHuruf" : "A",
+            "NilaiAngka" : "90"
+        }; //Object or Dictionary
+    </script>
+</body>
+</html>
