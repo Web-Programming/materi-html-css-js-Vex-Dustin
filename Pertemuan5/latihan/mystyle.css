@@ -81,11 +81,11 @@ nav a:hover{
     border-radius: 15px; /* Rounded Corner */
     background-color: #fff; /* Warna latar belakang sel */
     box-shadow: 0 5px 10px rgba(0,0,0,0.1); /* Memberikan bayangan halus pada sel */
-    transition: transform 0.3s ease; /* Animasi saat hover */
+    transition: all 0.2s ease; /* Animasi saat hover */
 }
 
 .fasilitas-section td:hover {/* Efek saat hover pada sel */
-    background-color: #e0f7fa; /* Warna latar belakang saat hover
+    background-color: #e0f7fa; /* Warna latar belakang saat hover*/
     transform: translateY(-10px); /* Mengangkat sel saat dihover */
 }
 
