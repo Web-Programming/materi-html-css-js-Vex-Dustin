@@ -34,7 +34,7 @@ function addGuest(){
 
 function clearList(){
     if(confirm('Hapus semua data tamu di sesi ini?')){
-        sessionStorage.removeItem('guest');
+        sessionStorage.removeItem('guests');
         displayGuests();
     }
 }
